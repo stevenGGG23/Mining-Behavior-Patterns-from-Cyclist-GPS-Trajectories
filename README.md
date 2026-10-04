@@ -4,7 +4,7 @@ How do cyclists actually ride through a city? This project turns raw smartphone 
 
 **CSCI 4900/6000 · Team 3: Steven Gobran & Kevin Yassa · Middle Tennessee State University**
 
-![Ride traces across Berlin](images/map.png)
+<img width="1269" height="952" alt="image" src="https://github.com/user-attachments/assets/970fb30d-9a2a-4a5e-a485-5462439a4fe4" />
 
 *Every cleaned ride across Berlin. Brighter lines are faster riding. Red dots are near-miss incidents, and the larger ones were marked scary.*
 
@@ -23,7 +23,10 @@ Cities usually count cyclists but don't know **how** they ride: which streets th
 3. **Find riding styles** by clustering rides
 4. **Map hot spots**: popular routes and junctions with frequent stops and near misses
 
-Objectives 2 and 3 are done for the midterm sample. Map matching and hot spots are the next phase.
+Objectives 2 and 3 are done for the midterm sample. Map matching and hot spots are the next phase. 
+
+<img width="1316" height="909" alt="image" src="https://github.com/user-attachments/assets/7d0a3679-8544-4752-a193-70abd5e3f503" />
+
 
 ## Key results
 
@@ -57,7 +60,11 @@ Each ride file has two parts:
 | Incident block | `lat, lon, ts, bike, pLoc, incident, i1..i10, scary` | Rider-labeled near misses: type, who was involved, scary flag |
 | Ride time series | `lat, lon, X, Y, Z, timeStamp, acc, a, b, c` | GPS about every 3 s, with accelerometer and gyroscope rows in between |
 
-The codes for bike type, phone position and incident type are explained in the dataset's [`legend.txt`](https://github.com/simra-project/dataset/blob/master/legend.txt).
+The codes for bike type, phone position and incident type are explained in the dataset's [`legend.txt`](https://github.com/simra-project/dataset/blob/master/legend.txt). 
+
+<img width="1200" height="1008" alt="image" src="https://github.com/user-attachments/assets/cd4fee4b-cffb-4f4a-b51c-b0cf91ef1bbb" /> 
+
+
 
 ## Data cleaning
 
