@@ -101,19 +101,13 @@ Distance and duration are right-skewed: a few long rides pull the mean above the
 
 ### Speed and stopping
 
-![Speed and stop distributions](images/dist.png)
-
 Speed forms a bell shape around 18.5 km/h. Stops have a long tail: most rides stop about once per km, but some stop constantly.
 
 ### Feature correlations
 
-![Correlation heatmap](images/corr.png)
-
 Spearman correlations between ride features. The key warning for this method: acceleration variability and GPS error are strongly linked (0.73), so some "jerky" riding is really a bad signal.
 
 ### Near-miss incidents
-
-![Incident types](images/incidents.png)
 
 | | |
 |---|---|
@@ -126,8 +120,6 @@ Spearman correlations between ride features. The key warning for this method: ac
 Head-on approaches are rare, but over half of them were marked scary.
 
 ### Riding styles (preliminary clustering)
-
-![Riding style clusters](images/clusters.png)
 
 K-means (k = 3) on six standardized features:
 
